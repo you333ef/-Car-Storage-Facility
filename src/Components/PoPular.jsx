@@ -7,7 +7,7 @@ import { FaBowlRice } from "react-icons/fa6";
 import { TbManualGearbox } from "react-icons/tb";
 import { LuCableCar } from "react-icons/lu";
 import axios from 'axios';
-import carOne from '../assets/images/carone.svg';
+import carOne from '../assets/images/carOne.svg';
 import carTwo from '../assets/images/cartwo.svg';
 import carThree from '../assets/images/carthree.svg';
 import carFour from '../assets/images/carfour.svg';

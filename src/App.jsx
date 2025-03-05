@@ -9,9 +9,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Landing from './Componants/Landing';
-import Cars from './Componants/Cars';
-import DETAILS from './Componants/DETAILS';
+import Landing from './Components/Landing';
+import Cars from './Components/Cars';
+import DETAILS from './Components/DETAILS';
 
 
 const App = () => {
