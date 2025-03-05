@@ -8,9 +8,9 @@ import { TbManualGearbox } from "react-icons/tb";
 import { LuCableCar } from "react-icons/lu";
 import axios from 'axios';
 import carOne from "@/assets/images/carOne.svg?url";
-import carTwo from "@/assets/images/cartwo.svg?url";
-import carThree from "@/assets/images/carthree.svg?url";
-import carFour from "@/assets/images/carfour.svg?url";
+import carTwo from "@/assets/images/carTwo.svg?url";
+import carThree from "@/assets/images/carThree.svg?url";
+import carFour from "@/assets/images/carFour.svg?url";
 
 
 import { FaArrowRight } from "react-icons/fa";
