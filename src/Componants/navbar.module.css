@@ -1,0 +1,22 @@
+.navbarrr{
+    width: 100% !important;
+}
+
+  .TXT{
+    font-weight: 600;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .BOOTN{
+    background-color: #1572D3;
+    color: white;
+    font-weight: 600;
+    padding: 3px !important;
+    width: 80px !important;
+  }
+.Logo{
+    width: 140px;
+    
+   
+  
+}
