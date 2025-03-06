@@ -3,6 +3,7 @@ import styles from './landing.module.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import PoPular from './PoPular';
+import Rent from './Rent';
 
 const Landing = () => {
   return (
@@ -10,6 +11,7 @@ const Landing = () => {
     <Navbar/>
     <Header/>
     <PoPular/>
+    <Rent/>
     
     
     </>

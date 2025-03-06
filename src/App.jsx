@@ -15,6 +15,7 @@ import DETAILS from './Components/DETAILS';
 
 
 const App = () => {
+  
   return (
     <React.Fragment>
       <Router>

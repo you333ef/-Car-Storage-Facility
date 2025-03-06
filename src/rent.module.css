@@ -1,0 +1,94 @@
+.HOWbtn {
+    margin: auto; /* يرسله لأسفل عند وجود مساحة فارغة */
+    background-color:rgba(21, 114, 211, 0.1);
+    color:#1572D3;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    display: flex;
+}
+
+.papa_Rent {
+    margin-top: 50px;
+}
+
+.TiTle {
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+}
+.child img{
+    padding: 10px;
+}
+
+.OK p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.OK h6 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.papa {
+    display: flex;
+    margin-top: 50px !important;
+}
+
+@media (max-width: 1024px) {
+    .HOWbtn {
+        margin: auto; /* يرسله لأسفل عند وجود مساحة فارغة */
+        background-color:rgba(21, 114, 211, 0.1);
+        color:#1572D3;
+        padding: 5px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        display: flex;
+    }
+    .newClass3{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        padding: 20px !important;
+    }
+    .newClass3 br{
+        display: none;
+    }
+}
+.slidePAPA{
+    align-items: center;
+    padding: 10px;
+    margin-top: 40px;
+  width: 100%;
+    overflow: hidden;
+
+}
+.slidePAPA img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
