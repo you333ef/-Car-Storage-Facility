@@ -1,0 +1,10 @@
+.footer-content {
+    font-size: 16px;   /* حجم الخط الأساسي */
+    font-weight: 500;  /* وزن الخط */
+  }
+  
+  .footer-content h5 {
+    font-size: 19px;   /* حجم الخط للعناوين */
+    font-weight: 600;  /* وزن الخط للعناوين */
+  }
+  

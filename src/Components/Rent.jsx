@@ -25,7 +25,7 @@ const Rent = () => {
       
     return (
         <React.Fragment>
-        <div className={`container ${TOKYO.papa_Rent}`}>
+        <div className={` ${TOKYO.papa_Rent}`}>
                     <button className={`${TOKYO.HOWbtn}`}>HOW IT WORK</button>
 <h3  className={`${TOKYO.TiTle}`}>Rent with following 3 working steps</h3>
 <div className={`d-flex jc-center text-center m-auto row ${TOKYO.papa}`}>
@@ -57,8 +57,8 @@ const Rent = () => {
 
 
 </div>
-<div className={`${TOKYO.modelsSlider}`}>
-    <div className={`row ${TOKYO.slidePAPA}`}>
+<div className={`w-100 ${TOKYO.modelsSlider}`}>
+    <div className={`  row ${TOKYO.slidePAPA}`}>
     <Slider {...settings}>
     <div className={`col-lg-12 col-sm-12 col-12 ${TOKYO.slide}`}>
         <img src={FOGG} alt="Slider Image" />
@@ -70,18 +70,10 @@ const Rent = () => {
         <img src={FOGG} alt="Slider Image" />
       </div>
     </Slider>
-
-    
-    
-     
-      
-    </div>
-
 </div>
-
-
-        </div>
-        </React.Fragment>
+</div>
+</div>
+</React.Fragment>
     )
 }
 

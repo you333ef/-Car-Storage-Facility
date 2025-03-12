@@ -1,0 +1,192 @@
+.HOWbtn {
+    margin: auto; /* يرسله لأسفل عند وجود مساحة فارغة */
+    background-color:rgba(21, 114, 211, 0.1);
+    color:#1572D3;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    display: flex;
+}
+@media (max-width: 1024px) {
+    .HOWbtn {
+        margin: auto; /* يرسله لأسفل عند وجود مساحة فارغة */
+        background-color:rgba(21, 114, 211, 0.1);
+        color:#1572D3;
+        padding: 5px;
+        
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        display: flex;
+    }}
+    .left1 h2{
+        font-size: 20px;
+        font-weight: 600;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+  
+.SECCAR {
+    position: relative;
+   
+    background: url('../assets/images/bg-offer.svg') no-repeat right center;
+    background-size: cover; 
+   
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .SECCAR {
+      order: 1; 
+    }
+    .left1 {
+      order: 2; 
+    }
+  }
+.row.AcparHom {
+    
+    align-items: stretch; 
+    overflow: hidden !important;
+  }
+  .SECCAR {
+    position: relative;
+  
+    background: url('../assets/images/bg-offer.svg') no-repeat right center;
+    background-size: cover;
+    overflow: hidden !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .offer{
+    overflow: hidden;
+  }
+ 
+  .SECCAR img {
+    max-width: 100%;
+    height: auto;
+    z-index: 2000;
+    
+  }
+  @media (max-width: 1024px) {
+    .SECCAR {
+      order: 1; 
+    }
+    .left1 {
+      order: 2; 
+    }
+    .imageS{
+        margin-right: auto;
+     }
+     .SECCAR{
+        background-image: none;
+      
+        gap: 0;
+     }
+   
+     .Round{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 10px;
+     }
+      .Round img{
+        padding: 5px;
+       
+     }
+     .Round h6{
+        font-weight: 700;
+     }
+     .left1{
+        padding: 50px !important;
+     }
+     .HOWbtn{
+        width: 40%;
+     }
+     .row.AcparHom {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .row.AcparHom > [class^="col-"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .imageS {
+        margin-right: 0 !important;
+      }
+    
+  }
+ .imageS{
+    margin-right: 58px;
+ }
+  @media (max-width: 1024px) {
+    /* 1) الأب بوضع relative لإتاحة التمركز المطلق للابن */
+    .SECCAR {
+      position: relative;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100%;
+      overflow: hidden;      /* إخفاء أي تجاوز */
+      min-height: 30px;     /* أو أي قيمة تضمن ألا ينهار الارتفاع */
+    }
+  
+    /* 2) العنصر الحاوي للصورة بوضع absolute في أقصى اليسار */
+    .imageS {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0 !important;
+      padding: 0 !important;
+      z-index: 1;
+    }
+  
+    /* 3) الصورة نفسها تمتد بكامل العرض المتاح وتلصق اليسار */
+    .MAAIN {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    /*  */
+    /* 1) خلّي الـ row ما يخفيش أي جزء من الصورة */
+.row.AcparHom {
+  align-items: stretch;
+  overflow: visible !important; /* أو شيل السطر ده خالص لو مش محتاجه */
+}
+
+/* 2) خلّي .SECCAR تسمح للصورة تتمدّد */
+.SECCAR {
+  position: relative;
+  background: none;
+ 
+  
+
+ 
+  min-height: 320px; /* كمثال عشان يبقى في طول كافي */
+  
+  /* شيّل الـ overflow hidden */
+  overflow: visible !important;
+}
+
+/* 3) الصورة نفسها تاخد المساحة اللي محتاجاها */
+.imageS img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+}
+
+  }
+  

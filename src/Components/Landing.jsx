@@ -4,6 +4,10 @@ import Navbar from './Navbar';
 import Header from './Header';
 import PoPular from './PoPular';
 import Rent from './Rent';
+import Offer from './Offer';
+import People from './Pepole';
+import Download from './Download';
+import Footer from './Footer';
 
 const Landing = () => {
   return (
@@ -12,6 +16,10 @@ const Landing = () => {
     <Header/>
     <PoPular/>
     <Rent/>
+    <Offer/>
+    <People/>
+    <Download/>
+    <Footer/>
     
     
     </>

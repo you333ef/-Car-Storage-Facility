@@ -13,11 +13,14 @@ const Header = () => {
       <div className={stylesHead.MAINHEADER}>
         <div className="container-fluid p-0">
           <div className={`row g-0 ${stylesHead.rowoow}`}> 
-            <div className={`col-lg-6 col-md-12 col-sm-12 order-2 order-md-2 order-lg-1  d-flex flex-column justify-content-center ${stylesHead.lweft}`}>
+            <div className={`col-lg-6 col-md-12 col-sm-12  order-2 order-md-2 order-lg-1  d-flex flex-column justify-content-center ${stylesHead.lweft}`}>
               <div className={` ${stylesHead.KSARRRR}`}>
-              <div className={stylesHead.nce}>
-              <h2>Find, book and<br /> rent a car <span>Easily</span></h2>
-              <p>Get a car wherever and whenever you<br />need it with your IOS and Android device.</p>
+              <div className={`  ${stylesHead.nce}`}>
+                <div className={`justify-content-start d-flex ${stylesHead.sure}`}>
+                <h2 className='  '>Find, book and <br />rent a car<span className={`  ${stylesHead.Easily}`}>Easily</span> </h2>
+
+                </div>
+              <p className='justify-content-start d-flex' >Get a car wherever and whenever you<br />need it with your IOS and Android device.</p>
               </div>
                 <div className={stylesHead.KSAR}>
                   <img src={GooGle} alt="Google Play" />

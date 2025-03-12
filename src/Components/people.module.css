@@ -1,0 +1,90 @@
+.HOWbtn {
+    margin: auto; /* يرسله لأسفل عند وجود مساحة فارغة */
+    background-color:rgba(21, 114, 211, 0.1);
+    color:#1572D3;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    display: flex;
+}
+@media (max-width: 1024px) {
+    .HOWbtn {
+        margin: auto;
+        background-color:rgba(21, 114, 211, 0.1);
+        color:#1572D3;
+        padding: 5px;
+        
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        display: flex;
+    }}
+    .Taxes{
+        position: relative;
+    }
+    .bg_left{
+        position: absolute;
+             top: 0;
+             left: 10px;
+             z-index: 1000;
+             width: 17%;
+    }
+    .bg_right{
+        position: absolute;
+        top: 0 !important;
+        right: 30px !important;
+        z-index: 1000;
+        width: 17%;
+       
+
+    }
+    .peole_TITLE{
+        font-weight: 700;
+    }
+    .testimonial_img {
+        width: 50% !important;
+      
+        height: 300px;
+        object-fit: cover;
+        z-index: 1000;
+      }
+      .card {
+        height: 320px;
+        width: 100%;
+        align-items: center;
+      }
+     
+      @media (max-width: 768px) {
+        .card {
+          flex-direction: column; 
+          text-align: center;
+          height: auto;
+        }
+        .testimonial_img {
+            width: 100% !important;
+      
+            height: 250px;
+            object-fit: cover;
+            z-index: 1000;
+        }
+        
+      }
+      .TETO{
+        margin-top: 100px;
+
+      }
+      .stars{
+        gap: 10px !important;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       margin: auto;
+      }

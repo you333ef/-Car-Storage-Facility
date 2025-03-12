@@ -9,17 +9,19 @@ const Navbar = () => {
     <div className="container d-flex justify-content-between align-items-center w-100">
       <img src={LOGO} className={`navbar-brand ${EBT.Logo}`} alt="Logo" />
 
+     
       <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
+  className="navbar-toggler"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarTogglerDemo01"
+  aria-controls="navbarTogglerDemo01"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
+  <span className="navbar-toggler-icon"></span>
+</button>
+
 
       <div className={`collapse navbar-collapse flex-grow-1 text-center ${EBT.TXT}`} id="navbarTogglerDemo01">
         <ul className="navbar-nav mx-auto">
