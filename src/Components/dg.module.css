@@ -1,0 +1,15 @@
+.det_image{
+    width: 100% !important;
+    height: 100% !important;
+}
+@media(max-width:1024px){
+    .details{
+        margin-top: 50%;
+        }
+        .det_image{
+            width: 100% !important;
+          
+        }
+}
+
+

@@ -11,13 +11,10 @@ import carOne from "@/assets/images/carOne.svg?url";
 import carTwo from "@/assets/images/carTwo.svg?url";
 import carThree from "@/assets/images/carThree.svg?url";
 import carFour from "@/assets/images/carFour.svg?url";
-
-
 import { FaArrowRight } from "react-icons/fa";
-
-
+import { useNavigate } from 'react-router-dom';
+import MostCars from './MostCars';
 const PoPular = () => {
-
 const CARIMGE = {
     1: carOne,
     2: carTwo,
@@ -25,27 +22,24 @@ const CARIMGE = {
     4: carFour,
 
 }
-
-
-
+let navigate=useNavigate()
+let gotocomponent=()=>{
+    navigate('/most-cars')
+}
     let [dataApi, setDataApi] = useState([]);
     let[search, setSearch] = useState('');
     function handlesearch(event){
         console.log(event.target.value)
         setSearch(event.target.value)
-
     }
     function filterCars(item){
         return item.car_model.toLowerCase().includes(search.toLowerCase())
-
     }
-    
     useEffect(() => {
         const fetchData = async () => {
           let dataApi = await axios.get('https://myfakeapi.com/api/cars/');
           setDataApi(dataApi ?.data .cars.slice(0, 4)); 
         };
-      
         fetchData();
       }, []);
   return (
@@ -95,7 +89,7 @@ const CARIMGE = {
       <p>Price</p>
       <h6>{item.price} <span> /day</span></h6>
       </div>
-      <button className={` ${STYLEST.Rentbtn}`}>Rent Now </button>
+      <button className={` ${STYLEST.Rentbtn}`} onClick={gotocomponent} >Rent Now </button>
       
                   </div>
      ))}

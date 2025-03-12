@@ -12,6 +12,8 @@ import {
 import Landing from './Components/Landing';
 import Cars from './Components/Cars';
 import DETAILS from './Components/DETAILS';
+import MostCars from './Components/MostCars';
+import DG from './Components/DG';
 
 
 const App = () => {
@@ -23,6 +25,11 @@ const App = () => {
           <Route path="/" element={<Landing />} />
           <Route path="/cars" element={<Cars />} />
           <Route path="/details" element={<DETAILS />} />
+          <Route path="/most-cars" element={<MostCars />} />
+          <Route path="/DG" element={<DG />} />
+
+
+          
         </Routes>
       </Router>
     </React.Fragment>

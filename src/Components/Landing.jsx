@@ -8,6 +8,7 @@ import Offer from './Offer';
 import People from './Pepole';
 import Download from './Download';
 import Footer from './Footer';
+import MostCars from './MostCars';
 
 const Landing = () => {
   return (
@@ -20,6 +21,7 @@ const Landing = () => {
     <People/>
     <Download/>
     <Footer/>
+   
     
     
     </>

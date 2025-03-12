@@ -1,0 +1,216 @@
+.POP_TOP{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+ 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+.POP_TOP input{
+    width: 60% !important;
+    position: relative;
+    border: 2px solid #135EAC1F ;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+.POP_TOP button{
+    position: absolute;
+    right:260px;
+    padding: 8px;
+    width: 8%;
+    background-color: #1572D3;
+    color: azure;
+    outline: none;
+    border: none;
+ 
+    border-radius: 10px;
+  
+
+}
+.POP_TOP button:hover{
+    background-color: #366fac;
+}
+.POP_TOP_TITLE button{
+    background-color:#1572D31A;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color:#1572D3;
+    border-radius: 4px;
+
+ 
+
+    
+}
+.POP_TOP_TITLE h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.POP_TOP_TITLE{
+   width:auto;
+   margin: auto;
+ 
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+.TQSEEMA{
+    overflow: hidden !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.VV{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+   
+}
+.child{
+    padding: 4px;
+}
+.VPDO{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+    gap: 20px;
+}
+@media(max-width:1024px){
+    .POP_TOP button{
+        position: absolute;
+        right:21%;
+        padding: 8px;
+        width: 15%;
+        background-color: #1572D3;
+        color: azure;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+      
+    
+    }
+}
+.child p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    color: #959595;
+    font-weight: 600;
+}
+.PDAYA p{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px; font-weight: 700;
+    font-size: 15px;
+
+}
+.PDAYA h5{
+    font-weight: 700;
+    font-size: 16px;
+}
+.STArIcon{
+    color: #EFBF14;
+}
+.PDAYA p span{
+    color:#959595;
+    font-weight: 600;
+}
+.Khat{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.VPDO p ,span{
+color: #959595;
+font-weight: 600;
+}
+.VPDO h6{
+    font-weight: 700;
+    font-size: 15px;
+}
+.Rentbtn{
+    background-color: #1572D3;
+    color: azure;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 70%;
+}
+.TQSEEMA1{
+    box-shadow: 0px 4px 10px rgba(16, 76, 139, 0.16); 
+    padding: 10px;
+    margin-top: 30px;
+   align-items: center;
+  
+
+   
+  
+}
+.PDAYA h5, .PDAYA p {
+    margin: 0;
+}
+/* 1) على العنصر الأب (الـ row) أضف خاصية flex لضبط الارتفاع */
+.TQSEEMA {
+    /* أزل أو ألغِ height: 400px إذا كان موجودًا */
+    height: auto !important; 
+    display: flex;
+    flex-wrap: wrap;         /* يسمح بتعدد الأسطر لو الشاشة أصغر */
+    align-items: stretch;    /* يمدد العناصر الداخلية لنفس الطول */
+    justify-content: center; /* يظلل الكروت في المنتصف كما لديك */
+    text-align: center;      /* كما هو عندك */
+    overflow: hidden !important; /* موجود عندك */
+  }
+  
+  /* 2) على كل كارد (العنصر الداخلي) نجعله عموديًا ونضمن توزيع المحتوى */
+  .TQSEEMA1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-top: 30px; /* كما لديك */
+    box-shadow: 0px 4px 10px rgba(16, 76, 139, 0.16); 
+    padding: 10px;
+  }
+  
+  /* 3) اجعل الصور تتكيف مع العرض ولا تؤثر على ارتفاع الكارد */
+  .TQSEEMA1 img {
+    width: 100%;
+    height: auto;       /* يتكيّف مع العرض */
+    object-fit: cover;  /* حتى لا تتمدّد الصورة بشكل مشوّه */
+  }
+  
+  /* 4) لو أردت زر "Rent Now" في أسفل كل كارد دائماً، تأكد ألا يكون هناك margin كبير تحته */
+  .Rentbtn {
+    margin-top: auto; /* يرسله لأسفل عند وجود مساحة فارغة */
+    background-color: #1572D3;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 70%;
+  }
+  .vehicles{
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   font-weight: 600;
+   font-size: 15px;
+  }
