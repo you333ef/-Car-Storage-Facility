@@ -34,7 +34,7 @@ const MostCars = () => {
     useEffect(() => {
         const fetchData = async () => {
             let dataApi = await axios.get('https://myfakeapi.com/api/cars/');
-            setDataApi(dataApi?.data?.cars); // عرض كل المنتجات
+            setDataApi(dataApi?.data?.cars.slice(0,20)); 
         };
         fetchData();
     }, []);
@@ -84,15 +84,13 @@ const MostCars = () => {
                                     <p>Price</p>
                                     <h6>{item.price} <span>/day</span></h6>
                                 </div>
-                                <button className={STY.Rentbtn} onClick={gotocomponent}>Rent Now</button>
+                                <button className={STY.Rentbtn} onClick={gotocomponent}>Show details</button>
                             </div>
                         ))}
                     </div>
                 </div>
 
-                <button className={`mt-5 text-center btn d-flex m-auto jc-center ${STY.vehicles}`}>
-                    Show all vehicles <FaArrowRight />
-                </button>
+             
             </div>
         </>
     );

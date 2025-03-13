@@ -101,7 +101,7 @@ let gotocomponent=()=>{
         
 
 
-<button className={`mt-5 text-center btn d-flex m-auto jc-center ${STYLEST.vehicles}`}>Show all vehicles<FaArrowRight />
+<button className={`mt-5 text-center btn d-flex m-auto jc-center ${STYLEST.vehicles}`} onClick={gotocomponent} >Show all vehicles<FaArrowRight />
 
 </button>
 
