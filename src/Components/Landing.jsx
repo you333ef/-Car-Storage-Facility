@@ -19,7 +19,8 @@ const Landing = () => {
     <Rent/>
     <Offer/>
     <People/>
-  
+    <Download/>
+    <Footer/>
    
     
     
