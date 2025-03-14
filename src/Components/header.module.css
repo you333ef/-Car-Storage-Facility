@@ -11,7 +11,19 @@
 height: 95vh;
     flex-grow: 1; 
 }
-
+.lweft {
+    padding-left: 70px !important;
+    margin-top: 30px;
+   
+    
+  }
+  .MAINHEADER {
+    padding-top: -80px; 
+  }
+  .right{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 .collection img {
     width:100%;
     height:55%;
@@ -51,7 +63,7 @@ height: 95vh;
   
 
 h2 {
-    font-size: 30px;
+    font-size: 26px;
     letter-spacing: 1px;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -61,15 +73,16 @@ h2 {
 h2 .Easily {
     color:#1572D3;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 28px;
   
 }
 
 p {
-    font-size: 17.2px;
+    font-size: 15px;
     color: #555;
-    margin-top: 10px;
+    margin-top: 5px;
     line-height: 1.5;
+    font-weight: 400;
 }
 
 .KSAR {
@@ -91,15 +104,19 @@ p {
 
 }
 @media screen and (max-width:1024px) {
-    .lweft {
-        padding:0;
-        margin-top: 10px !important;
-        margin: auto;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        
-      }
+    @media screen and (max-width:1024px) {
+        .lweft {
+            padding: 0 !important;
+            margin: auto !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center !important;
+            text-align: center !important;
+            width: 100%; 
+        }
+    }
+    
       .MAINHEADER {
         padding-top: -80px; 
       }
@@ -178,7 +195,15 @@ height: 330px;
         margin: 0;
         padding: 0;
       }
-    
+      .lweft {
+        padding:0;
+        margin-top: 10px !important;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        
+      }
      
       .collection img {
         position: relative; 
@@ -191,16 +216,3 @@ height: 330px;
       }
 }
 
-.lweft {
-    padding-left: 70px !important;
-    margin-top: 30px;
-   
-    
-  }
-  .MAINHEADER {
-    padding-top: -80px; 
-  }
-  .right{
-    margin: 0 !important;
-    padding: 0 !important;
-  }

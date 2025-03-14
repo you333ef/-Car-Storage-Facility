@@ -12,7 +12,7 @@ const Header = () => {
     <React.Fragment>
       <div className={stylesHead.MAINHEADER}>
         <div className="container-fluid p-0">
-          <div className={`row g-0 ${stylesHead.rowoow}`}> 
+          <div className={`row g-0  ${stylesHead.rowoow}`}> 
             <div className={`col-lg-6 col-md-12 col-sm-12  order-2 order-md-2 order-lg-1  d-flex flex-column justify-content-center ${stylesHead.lweft}`}>
               <div className={` ${stylesHead.KSARRRR}`}>
               <div className={`  ${stylesHead.nce}`}>
