@@ -39,7 +39,7 @@ const Download = () => {
             </div>
           </div>
 
-          {/* الجزء الثاني: صورة الموبايل */}
+
           <div className={`col-lg-6 order-sm-1 order-1 order-lg-2  col-12 col-md-12 text-center ${SSTYLES.PART2}`}>
             <img src={mobile} alt="Phone Mockup" className="img-fluid" />
           </div>

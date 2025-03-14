@@ -10,6 +10,7 @@
    
     
 }
+
 .POP_TOP input{
     width: 60% !important;
     position: relative;
@@ -98,6 +99,7 @@
       
     
     }
+   
     
 }
 .child p{
@@ -176,6 +178,7 @@ font-weight: 600;
     justify-content: center; /* يظلل الكروت في المنتصف كما لديك */
     text-align: center;      /* كما هو عندك */
     overflow: hidden !important; /* موجود عندك */
+  
   }
   
   /* 2) على كل كارد (العنصر الداخلي) نجعله عموديًا ونضمن توزيع المحتوى */
@@ -215,3 +218,4 @@ font-weight: 600;
    font-weight: 600;
    font-size: 15px;
   }
+ 

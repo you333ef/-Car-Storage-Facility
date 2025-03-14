@@ -64,7 +64,7 @@ let gotocomponent=()=>{
     <div className="container">
     <div className={`row  ${STYLEST.TQSEEMA}`}>
      {dataApi.filter(filterCars).map((item, index) => (
-      <div key={index} className={`col-lg-3 col-md-6 col-sm-6  col-6 ${STYLEST.TQSEEMA1}`}>
+      <div key={index} className={`col-lg-3  col-md-6 col-sm-6  col-6 ${STYLEST.TQSEEMA1}`}>
       <img src={CARIMGE[item.id]} alt="" />
       <div className={`${STYLEST.PDAYA}`}>
           <h5>{item.car_model}</h5>

@@ -15,16 +15,16 @@ const Offer = () => {
         <div className={`row  ${TOTO.AcparHom}`}>
           
           <div className={`col-lg-6 col-md-12 col-sm-12  ${TOTO.SECCAR}`}>
-                        <div className={TOTO.imageS}>
-                              <motion.img 
-                              src={carNow} 
-                              alt="Car Main"
-                              className={TOTO.MAAIN}
-                              initial={{ opacity: 0, x: -300 }} 
-                              animate={{ opacity: 1, x: 0 }}     
-                              transition={{ duration: 2.5, ease: "easeOut" }}
-                            />
-                        </div>
+          <div className={TOTO.imageS}>
+                <motion.img 
+                src={carNow} 
+                alt="Car Main"
+                className={TOTO.MAAIN}
+                initial={{ opacity: 0, x: -300 }} 
+                animate={{ opacity: 1, x: 0 }}     
+                transition={{ duration: 2.5, ease: "easeOut" }}
+              />
+          </div>
           </div>    
           <div className={`col-lg-6 col-sm-12 ${TOTO.left1}`}>
             <button className={`${TOTO.HOWbtn}`}>WHY CHOOSE US</button>
