@@ -1,6 +1,4 @@
-.collection {
- 
-}
+
 .collection{
     background-image: url('../assets/images/bg_HEADER.svg');
     background-size: cover; 
@@ -10,13 +8,13 @@
     justify-content: center;
     align-items: center;
     width: 100%; 
- 
-height: 90vh;
+height: 95vh;
     flex-grow: 1; 
 }
+
 .collection img {
     width:100%;
-    height:80%;
+    height:55%;
     object-fit:scale-down
     ;
 }
@@ -86,12 +84,25 @@ p {
     height: 100%;
 }
 .lweft{
-  padding-left: 70px;
+   padding-left: 120px !important; 
+  
   display: flex;
   flex-direction: column;
 
 }
 @media screen and (max-width:1024px) {
+    .lweft {
+        padding:0;
+        margin-top: 10px !important;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        
+      }
+      .MAINHEADER {
+        padding-top: -80px; 
+      }
   .collection{
    background-image: none;
     height:auto;
@@ -142,16 +153,17 @@ height: 330px;
  
   .collection img {
     position: relative; 
-    width: 110vw;       
+    width: 100%;       
     height:100%;        
-    margin-left: -10vw; 
+    margin-left: 0 !important; 
     object-fit: contain; 
-    max-width: none;    
+  
   }
   .sure h2{
    font-size: 34px;
    font-weight: 700;
    letter-spacing: 3px;
+
   
 }
 
@@ -170,11 +182,25 @@ height: 330px;
      
       .collection img {
         position: relative; 
-        width: 90vw;       
+        width: 100vw;       
         height:100%;    
          
-        margin-left: -1vw; 
+        margin-left: 0; 
         object-fit: contain; 
         max-width: none;    
       }
 }
+
+.lweft {
+    padding-left: 70px !important;
+    margin-top: 30px;
+   
+    
+  }
+  .MAINHEADER {
+    padding-top: -80px; 
+  }
+  .right{
+    margin: 0 !important;
+    padding: 0 !important;
+  }

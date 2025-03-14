@@ -1,6 +1,14 @@
 .navbarrr{
     width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999; /* لو محتاج navbar يبان فوق أي حاجة */
+  
+    
 }
+
+
 
   .TXT{
     font-weight: 600;
@@ -19,4 +27,14 @@
     
    
   
+}
+@media(max-width:1024px){
+  .navbarrr{
+    
+    z-index: 3000; 
+    position:static
+  
+    
+}
+
 }

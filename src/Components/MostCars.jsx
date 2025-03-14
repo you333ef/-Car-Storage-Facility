@@ -58,9 +58,9 @@ const MostCars = () => {
                 </div>
 
                 <div className="container">
-                    <div className={`row ${STY.TQSEEMA}`}>
+                    <div className={`row  ${STY.TQSEEMA}`}>
                         {dataApi.filter(filterCars).map((item, index) => (
-                            <div key={index} className={`col-lg-3 col-md-6 col-sm-6 col-6 ${STY.TQSEEMA1}`}>
+                            <div key={index} className={`col-lg-3 col-md-6  col-sm-6 col-6 ${STY.TQSEEMA1}`}>
                                 {/* استخدام index مع modulo لتحديد الصورة */}
                                 <img src={CARIMGE[index % CARIMGE.length]} alt="" />
                                 <div className={STY.PDAYA}>
@@ -72,7 +72,7 @@ const MostCars = () => {
                                 <div className={STY.VV}>
                                     <div className={STY.child}>
                                         <p><FaRegUser /> {item.id} Passengers</p>
-                                        <p><FaBowlRice /> Air Conditioning</p>
+                                        <p><FaBowlRice /> Air</p>
                                     </div>
                                     <div className={STY.child}>
                                         <p><TbManualGearbox /> Auto</p>
@@ -84,7 +84,7 @@ const MostCars = () => {
                                     <p>Price</p>
                                     <h6>{item.price} <span>/day</span></h6>
                                 </div>
-                                <button className={STY.Rentbtn} onClick={gotocomponent}>Show details</button>
+                                <button className={STY.Rentbtn} onClick={gotocomponent}>Show </button>
                             </div>
                         ))}
                     </div>

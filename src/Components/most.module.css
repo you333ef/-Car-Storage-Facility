@@ -167,7 +167,7 @@ font-weight: 600;
 }
 /* 1) على العنصر الأب (الـ row) أضف خاصية flex لضبط الارتفاع */
 .TQSEEMA {
-    /* أزل أو ألغِ height: 400px إذا كان موجودًا */
+  
     height: auto !important; 
     display: flex;
     flex-wrap: wrap;         /* يسمح بتعدد الأسطر لو الشاشة أصغر */
@@ -175,6 +175,7 @@ font-weight: 600;
     justify-content: center; /* يظلل الكروت في المنتصف كما لديك */
     text-align: center;      /* كما هو عندك */
     overflow: hidden !important; /* موجود عندك */
+  
   }
   
   /* 2) على كل كارد (العنصر الداخلي) نجعله عموديًا ونضمن توزيع المحتوى */
@@ -214,3 +215,7 @@ font-weight: 600;
    font-weight: 600;
    font-size: 15px;
   }
+ 
+  @media (max-width: 768px) {
+   
+}

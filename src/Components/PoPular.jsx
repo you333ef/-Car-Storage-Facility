@@ -77,7 +77,7 @@ let gotocomponent=()=>{
               <p> <FaRegUser />
               {item.id} Passagers</p>
               <p> <FaBowlRice />
-              Air Conditioning</p>
+              Air</p>
           </div>
           <div className={` ${STYLEST.child}`}>
           <p><TbManualGearbox />Auto</p>

@@ -28,7 +28,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className={`col-lg-6 order-sm-1 order-md-1 order-lg-2 col-md-12 col-sm-12 d-flex justify-content-center `}>
+            <div className={`col-lg-6 order-sm-1 order-md-1 order-lg-2 col-md-12 col-sm-12 d-flex justify-content-end  ${stylesHead.right} `}>
         <div className={stylesHead.CCLC}>
         <div className={stylesHead.collection}>
         <motion.img 

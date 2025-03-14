@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <React.Fragment >
 <div className={`${EBT.navbarrr}`}>
-  <nav className="navbar p-3 navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar p-3 navbar-expand-lg navbar-light ">
     <div className="container d-flex justify-content-between align-items-center w-100">
       <img src={LOGO} className={`navbar-brand ${EBT.Logo}`} alt="Logo" />
 
